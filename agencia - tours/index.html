@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de Tours - Inicio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Agencia de Tours</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="reservas.html">Reservas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="destacados">
+            <h2>Tours Destacados</h2>
+            <div class="tour">
+                <img src="images/tour1.jpg" alt="Tour 1">
+                <h3>Tour a la Montaña</h3>
+                <p>Disfruta de una experiencia única en las montañas.</p>
+                <button onclick="reservarTour('Tour a la Montaña')">Reservar</button>
+            </div>
+            <div class="tour">
+                <img src="images/tour2.jpg" alt="Tour 2">
+                <h3>Tour a la Playa</h3>
+                <p>Relájate en las mejores playas del país.</p>
+                <button onclick="reservarTour('Tour a la Playa')">Reservar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Agencia de Tours. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
